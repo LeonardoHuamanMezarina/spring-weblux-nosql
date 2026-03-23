@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://ep-falling-dawn-ansp2xt4-pooler.c-6.us-east-1.aws.neon.tech/leonardo_huaman_14?sslmode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_3uOZCm0wYrpj
+  sql:
+    init:
+      mode: always
+  logging:
+    level:
+      org.springframework.r2dbc: DEBUG
+

@@ -1,1 +1,1 @@
-# spring-weblux-nosql
+# Spring WebFlux + Postgre (SQL)
